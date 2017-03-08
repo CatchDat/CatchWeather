@@ -17,11 +17,7 @@ def T2Str(x):
         return '0' + str(x) + '0000'
     else:
         return str(x) + '0000'
-     
-def getLoc():
-    
-    print 'do stuff' 
-
+        
 
 if __name__ == "__main__":
 ##
@@ -77,6 +73,6 @@ if __name__ == "__main__":
         
         
         
-        k = j.strip('.csv') + '-W.csv'
-        jdat.to_csv(k,index=False)
+        l = j.strip('.csv') + '-W.csv'
+        jdat.to_csv(l,index=False)
 
